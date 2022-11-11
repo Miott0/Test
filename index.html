@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stylle.css">
+  <title>Teste</title>
+</head>
+<body>
+  <main>
+    <form action="#" id="formulario">
+      <div>
+          <label for="nome">Nome</label>
+      ////+    <input type="text" id="nome">
+      </div>
+
+      <div>
+          <label for="telefone">Telefone</label>
+          <input type="text" id="telefone">
+      </div>
+
+      <div>
+          <label for="cidade-retirada">Cidade Retirada</label>
+          <select id="cidade-retirada">
+              <option value="Campos-dos-Goytacazes">Campos do Goytacazes</option>
+              <option value="Rio">Rio de Janeiro</option>
+              <option value="Vitoria">Vitoria</option>
+          </select>
+      </div>
+
+      <div>
+          <label for="cidade-entrega">Cidade Entrega</label>
+          <select id="cidade-entrega">
+              <option value="Campos-dos-Goytacazes">Campos do Goytacazes</option>
+              <option value="Rio">Rio de Janeiro</option>
+              <option value="Vitoria">Vitoria</option>
+          </select>
+      </div>
+
+      <div>
+          <label for="data-retirada">Data Retirada</label>
+          <input type="date" id="data-retirada">
+      </div>
+
+      <div>
+          <label for="data-entrega">Data Entrega</label>
+          <input type="date" id="data-entrega">
+      </div>
+
+      <div>
+          <label for="tipo-carro">Tipo de Carro</label>
+          <select id="tipo-carro">
+            <option value="basico">Básico (R$ 119,00)</option>
+            <option value="ar">Básico com Ar (R$ 199,00)</option>
+            <option value="executivo">Executivo (R$ 299,00)</option>
+          </select>
+      </div>
+      <button type="submit">Calcular Preço</button>
+    </form>
+  </main>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
